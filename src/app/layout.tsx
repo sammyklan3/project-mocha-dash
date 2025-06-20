@@ -43,6 +43,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Analytics />
+        <SpeedInsights />
         <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
