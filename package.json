@@ -11,6 +11,8 @@
     "check-format": "prettier --check ."
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "chart.js": "^4.5.0",
     "cloudinary": "^2.7.0",
     "lucide-react": "^0.517.0",
